@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#canvas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+canvas {
+  border: 1px solid #ccc;
+}
+
+#buttons-container {
+  display: flex;
+}
+
+#clearCanvas,
+#recognizeGesture {
+  margin: 20px;
+  margin-bottom: 0px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #707070;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#gesture-input-container {
+  display: flex;
+  align-items: center;
+}
+
+#createGesture {
+  margin-left: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #707070;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#clearCanvas:hover,
+#recognizeGesture:hover,
+#createGesture:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+#gestureNameInput {
+  margin-right: 5px;
+}
+
+#results {
+  margin: 20px;
+  font-size: 30px;
+}
