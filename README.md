@@ -1,24 +1,5 @@
 # Project 1 – Exploring $-Family Recognizers
 
-## Table of Contents
-- [Overview](#overview)
-- [Usage](#usage)
-- [Files](#files)
-  - [Template Modules](#template-modules)
-  - [Styles](#styles)
-  - [HTML Files](#html-files)
-  - [JavaScript Files](#javascript-files)
-  - [Other Files](#other-files)
-- [About Predefined Templates](#about-predefined-templates)
-- [Creating Custom Gestures](#creating-custom-gestures)
-- [Testing](#testing)
-- [$1 Family Recognizer](#1-family-recognizer)
-- [1¢ Recognizer](#1¢-recognizer)
-- [Protractor Recognizer](#protractor-recognizer)
-- [Limitations](#limitations)
-
----
-
 ## Overview
 This project implements three gesture recognizers over a set of predefined templates.
 
